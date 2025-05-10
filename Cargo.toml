@@ -1,0 +1,11 @@
+[package]
+name = "cargo-delayedclippy"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+authors = ["laund"]
+description = "Delay clippy to improve compile times by a minuscule amount"
+repository = "https://github.com/laundmo/cargo-delayedclippy"
+categories = ["cargo", "clippy", "cargo-subcommand"]
+
+[dependencies]
