@@ -6,6 +6,7 @@ license = "MIT"
 authors = ["laund"]
 description = "Delay clippy to improve compile times by a minuscule amount"
 repository = "https://github.com/laundmo/cargo-delayedclippy"
-categories = ["cargo", "clippy", "cargo-subcommand"]
+keywords = ["cargo", "clippy", "cargo-subcommand"]
+categories = ["command-line-utilities"]
 
 [dependencies]
