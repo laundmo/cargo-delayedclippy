@@ -2,19 +2,24 @@
 Because i cared about those `0.15s` of compile time.
 
 > Why would you want to delay clippy?
+
 When you you want to run clippy "on save", but later.
+
 > Why would you want to do that?
+
 Because you might have something else you want to run first, like [bacon](https://github.com/Canop/bacon)
 
 ## When NOT to use this
 
 > I'm seeing `waiting for file lock on build directory` and have a bit of disk space available
+
 Change the Rust-Analyzer target directory, so it stores files separately.
 
 To do this, set `rust-analyzer.cargo.targetDir` to `true` or a specific path in your IDEs settings.
 Alternatively, set `CARGO_TARGET_DIR` to a path using `rust-analyzer.cargo.extraEnv`
 
 > I can freely control how i run clippy
+
 I recommend something like `sleep 0.2; cargo clippy` instead.
 
 ## When to use this
